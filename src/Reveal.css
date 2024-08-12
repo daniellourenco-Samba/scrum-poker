@@ -1,0 +1,59 @@
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  td {
+    background-color: #ecf0f1;
+  }
+    
+  button.reveal, button.clear {
+    width: 48%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  button.reveal{
+    background-color: #2bc046;
+  }
+
+  button.reveal:hover {
+    background-color: #1f9034;
+  }
+
+  button.clear{
+    background-color: #c0392b;
+  }
+
+  button.clear:hover {
+    background-color: #7e271e;
+  }
+  
+  

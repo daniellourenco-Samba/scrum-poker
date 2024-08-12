@@ -1,38 +1,90 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d1d1d1;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Reduzindo o espaçamento entre os botões */
+  margin-top: 20px;
+}
+
+.button-container button {
+  flex: 1 1 calc(25% - 10px); /* Ajusta os botões para ocupar 25% da largura do container */
+  min-width: 60px; /* Define uma largura mínima para os botões */
+}
+
+button.selected {
+  background-color: #27ae60;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vote-result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 24px;
+  color: #2c3e50;
 }
