@@ -1,0 +1,8 @@
+{
+  "short_name": "Pokers Poke",
+  "name": "Scrum Poker App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

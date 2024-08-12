@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scrum-poker/static/css/main.29d569ce.css",
+    "main.js": "/scrum-poker/static/js/main.23fca539.js",
+    "index.html": "/scrum-poker/index.html",
+    "main.29d569ce.css.map": "/scrum-poker/static/css/main.29d569ce.css.map",
+    "main.23fca539.js.map": "/scrum-poker/static/js/main.23fca539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29d569ce.css",
+    "static/js/main.23fca539.js"
+  ]
+}
